@@ -1,0 +1,40 @@
+
+
+
+  input[type='text'],input[type='number'],
+  input[type='email'],input[type='password'],#gender{
+    width: 300px;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 15px;
+
+    outline: none;
+  }
+input[type='text']:focus,input[type='tel'] :focus,
+input[type='email']:focus,input[type='password']:focus{
+  outline: none;
+}
+
+.submit-btn{
+  background-color: #FED600;
+  width: 150px;
+  border-radius: 20px;
+}
+.error {color: #FF0000;}
+
+label{
+  color: gray;
+  font-size: 15px;
+}
+.col-25 {
+  float: left;
+  width: 20%;
+  margin-top: 6px;
+  margin-right: 20px;
+}
+
+.col-75 {
+  float: left;
+  width: 80%;
+  margin-top: 6px;
+}
